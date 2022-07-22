@@ -1,16 +1,117 @@
+* {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    display: flex;
+    width: 30%;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.img {
+    width: 50%;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.product {
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.text {
+    width: 50%;
+}
+
+.text-info {
+    margin: 0 auto;
+    padding: 1rem 2.5rem;
+}
+
+h3 {
+    opacity: 50%;
+    letter-spacing: 0.5rem;
+    font-size: 0.7rem;
+    padding-top: 0.8rem;
+}
+
+h1 {
+    padding: 1rem 0;
+    font-family: 'Fraunces', serif;
+    line-height: 101%;
+}
+
+p {
+    opacity: 50%;
+    font-size: 0.774rem;
+    line-height: 170%;
+}
+
+.price {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+h2 {
+    margin-right: 1rem;
+    color: #226D32;
+    font-family: 'Fraunces', serif;
+    font-size: 1.9rem;
+}
+
+.before-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: line-through;
+    font-size: 0.75rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
-.card {
+button {
+    background-color: #226D32;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: #226D32 solid 1px;
+    border-radius: 0.3rem;
+    color: white;
     display: flex;
-    width: 30%;
-    height: 50vh;
     justify-content: center;
     align-items: center;
+}
+
+#button {
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 100%;
+    margin-left: 0.8rem;
+    font-weight: 700;
 }
